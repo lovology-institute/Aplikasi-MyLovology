@@ -1,6 +1,5 @@
 body {
     background-color: white;
-
 }
 /* .nvbrtop1 {
     background-color: #ff0066;
@@ -40,6 +39,7 @@ body {
 } */
 
 
+
 /* 4 MENU UTAMA START*/
 .cntnr1a {
     max-width: 900px;
@@ -57,44 +57,81 @@ body {
     padding: 2px;
     /* border-radius: 10px; */
 }
-.cntnr1a:hover {
-
-}
 /* 4 MENU UTAMA END */
-
-
 
 
 /* 4 MENU UTAMA START*/
 .cntnr1a2 {
     max-width: 900px;
     /* border: 5px solid #333; */
-    margin: 30px auto;
+    margin: 5px auto;
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 
 .cntnr1a2 a {
     width: 50%;
     height: 50%;
-    padding: 5px;
+    padding: 10px;
 }
 
-.cntnr1a2 a img {
-    /* border-radius: 10px; */
+.linkbtn {
+    /* width: 100%;
+    height: 100%; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.linkbtn a {
+    /* width: 100%;
+    height: 100%; */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .cntnr1a2 .cntnr1a2-button {
-    max-width: 200px;
-    /* border: 5px solid #333; */
+    /* width: 450px; */
+    border: 5px solid #333;
     box-sizing: border-box;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 /* 4 MENU UTAMA END */
+
+/* 4 MENU UTAMA START*/
+.cntnr1a2 a img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0.5px #888888;
+	-webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a2 a:hover img {
+	-webkit-transform: scale (0.9);
+	transform: scale (0.9);
+} 
+
+.cntnr1a2 a img {
+	opacity: 1;
+    /* border-radius: 10px; */
+    -webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a2 a:hover img {
+	opacity: .8;
+    /* border-radius: 10px; */
+    -webkit-transform: scale (0.99);
+	transform: scale (0.99);
+}
+/* 4 MENU UTAMA END*/
+
+
 
 /* 333 */
 
@@ -151,6 +188,32 @@ body {
     -webkit-transform: scale (0.99);
 	transform: scale (0.99);
 }
+
+.cntnr4 {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cntnr4-button a {
+    /* width: 50px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 2px 2px #888888; */
+
+    /* ICON SAJA */
+    /* color: rgb(4, 0, 255); */
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    /* ICON SAJA */
+}
+.cntnr4-button a:hover {
+    color: black;
+}
+
 /* 4 MENU UTAMA END*/
 
 /* 333 */
@@ -209,3 +272,4 @@ body {
     padding: 10px;
     color: white;
 }
+
